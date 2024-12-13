@@ -11,3 +11,18 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const radioImages = document.querySelectorAll(".radio-img");
+
+    radioImages.forEach(img => {
+        img.addEventListener("click", () => {
+            // Verwijder de 'expanded' klasse van alle afbeeldingen
+            radioImages.forEach(image => image.classList.remove("expanded"));
+
+            // Voeg de 'expanded' klasse toe aan de aangeklikte afbeelding
+            img.classList.add("expanded");
+        });
+    });
+});

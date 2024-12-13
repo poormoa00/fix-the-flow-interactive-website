@@ -263,6 +263,14 @@ main {
     margin-bottom: 15px;
 }
 
+.radio-img.expanded {
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out; 
+    z-index: 10; 
+    border: 2px solid #ff007b; 
+}
+
+
 .font-card-title {
     font-size: 14px;
     font-weight: bold;
