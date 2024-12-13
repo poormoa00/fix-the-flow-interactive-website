@@ -92,7 +92,7 @@ body {
 }
 
 .radio-zenders li a:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -261,11 +261,12 @@ main {
     width: 30px;
     height: 30px;
     margin-bottom: 15px;
+    transition: all 0.5s ease;
 }
 
 .radio-img.expanded {
     transform: scale(3); 
-    transition: transform 0.3s ease-in-out; 
+    transition: all 0.5s ease;
     z-index: 10; 
     border: 1px solid #ff007b; 
 }

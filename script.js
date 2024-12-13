@@ -18,11 +18,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     radioImages.forEach(img => {
         img.addEventListener("click", () => {
-           
-            radioImages.forEach(image => image.classList.remove("expanded"));
+            // Als de afbeelding al de 'expanded' klasse heeft, verwijder deze
+            if (img.classList.contains("expanded")) {
+                img.classList.remove("expanded");
+            } else {
+                // Verwijder de 'expanded' klasse van alle andere afbeeldingen
+                radioImages.forEach(image => image.classList.remove("expanded"));
 
-            
-            img.classList.add("expanded");
+                // Voeg de 'expanded' klasse toe aan de aangeklikte afbeelding
+                img.classList.add("expanded");
+            }
         });
     });
 });
