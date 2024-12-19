@@ -4,15 +4,23 @@ Ontwerp en maak een interactieve website voor een opdrachtgever.
 De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Mediahuis Opdracht
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Wat leveren we exact op?
 
+1. Een interface die niet alleen informatie biedt over progamma's en DJ's, maar ook een gepersonaliseerde ervaring creeert voor elke luisteraar.
+
+2. We hebben de creatieve vrijheid om de interface naar eigen inzicht vorm te geven.
+
+3. De interface bevat een filterfunctie waarmee consumenten per zender (Veronica, SLAM!, 100%NL, Sublime) kunnen selecteren. Op basis van de gekozen zender krijgen ze een lijst te zien van de progamma's, tijden en DJ's.
+
+ <img width="213" alt="Scherm­afbeelding 2024-11-28 om 09 42 01" src="https://github.com/user-attachments/assets/3d404006-18fa-45d1-ae12-99632e19e789">
+
+ https://poormoa00.github.io/fix-the-flow-interactive-website/
+ 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+Nieuwe functie in js 
 
 ## Bronnen
 
